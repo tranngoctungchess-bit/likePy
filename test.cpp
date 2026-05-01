@@ -3,7 +3,6 @@
 //
 #import "likePy.h"
 MAIN{
-    i64 x;
-    input(x);
-    print("the number: ") andprint(x);
+    list<int> a = {1,2,3,4,5};
+    print(len(a));
 }
