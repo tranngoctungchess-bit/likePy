@@ -26,6 +26,14 @@
 #define pop pop_back
 #define elif else if
 #define def void
-#define raise throw
+#define raise(x) throw std::runtime_error(x)
+#define except catch
+#define None nullptr
+#define random(a,b) (a+rand()%(b-a+1))
+#define swap(x,y) std::swap(x,y)
+#define sort(x) std::sort(x.begin(),x.end())
+#define reverse(x) std::reverse(x.begin(),x.end())
+#define max(x,y) std::max(x,y)
+#define min(x,y) std::min(x,y)
 typedef long long i64;
 #endif

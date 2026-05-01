@@ -4,7 +4,7 @@
 #import "likePy.h"
 def sayHello(str name){
     if(len(name)==0){
-        raise "Name cannot be empty!";
+        raise("Name cannot be empty!");
     }
     print("Hello ") andprint(name);
 }
