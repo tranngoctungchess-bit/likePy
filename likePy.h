@@ -2,8 +2,8 @@
 // Created by Admin on 5/1/2026.
 //
 
-#ifndef UNTITLED_HAHA_H
-#define UNTITLED_HAHA_H
+#ifndef UNTITLED_Likepy
+#define UNTITLED_Likepy
 #define import include
 #include <bits/stdc++.h>
 #define let auto
@@ -15,6 +15,5 @@
 #define len(x) x.size()
 #define list std::vector
 #define dict std::unordered_map
-#define
 typedef long long i64;
-#endif //UNTITLED_HAHA_H
+#endif
