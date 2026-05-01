@@ -2,13 +2,25 @@
 // Created by Admin on 5/1/2026.
 //
 #import "likePy.h"
-def sayHello(str name){
-    if(len(name)==0){
-        raise("Name cannot be empty!");
-    }
-    print("Hello ") andprint(name);
-}
+class Solution {
+public:
+    list<int> twoSum(list<int>& nums, int target) {
+        dict<int, int> seen;
 
-MAIN{
-    sayHello("World");
+        for (int i = 0; i < len(nums); i++) {
+            int complement = target - nums[i];
+
+            if (seen.find(complement) != seen.end()) {
+                return {seen[complement], i};
+            }
+
+            seen[nums[i]] = i;
+        }
+
+        return {};
+    }
+};
+
+MAIN {
+    return 0;
 }
