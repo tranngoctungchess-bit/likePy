@@ -2,13 +2,13 @@
 // Created by Admin on 5/1/2026.
 //
 #import "likePy.h"
-def hello(int a){
-    print(a);
+def sayHello(str name){
+    if(len(name)==0){
+        raise "Name cannot be empty!";
+    }
+    print("Hello ") andprint(name);
 }
-MAIN {
-    list<int> a;
-    a.append(1);
-    a.pop();
-    print(len(a)) endline;
-    hello(9);
+
+MAIN{
+    sayHello("World");
 }

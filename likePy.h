@@ -26,5 +26,6 @@
 #define pop pop_back
 #define elif else if
 #define def void
+#define raise throw
 typedef long long i64;
 #endif
